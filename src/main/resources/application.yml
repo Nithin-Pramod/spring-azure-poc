@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://springpoc.database.windows.net:1433;database=springpoc;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://springpocserver.database.windows.net:1433;database=springpoc;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: springpoc
     password: password@123
   jpa:
